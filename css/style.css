@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Public Pixel;
+    src: url("../font/PublicPixel-z84yD.ttf");
+}
+
 * {
     /* transition: all ease 300ms; */
     box-sizing: border-box;

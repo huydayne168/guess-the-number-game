@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- link reset CSS -->
+        <link rel="stylesheet" href="./css/reset.css" />
+
+        <!-- link CSS -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Guess the Number!</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <header id="header">
+                    <div class="again">Again</div>
+                    <p>Between 1 to 20</p>
+                </header>
+
+                <div id="title">
+                    <h1>Guess My Number!</h1>
+                </div>
+
+                <section id="correct-answer">
+                    <p></p>
+                </section>
+
+                <section id="game-body">
+                    <form>
+                        <label for="answer"> Guess here: </label>
+                        <input
+                            type="number"
+                            name="answer"
+                            id="answer"
+                            min="1"
+                            max="20"
+                            class="game-body__input"
+                        />
+
+                        <button type="submit">Check!</button>
+                    </form>
+
+                    <div class="game-body__details">
+                        <div class="hint">Let's guess!</div>
+                        <div class="score">Score : 20</div>
+                        <div class="highscore"></div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- javascript -->
+        <script src="main.js"></script>
+    </body>
+</html>

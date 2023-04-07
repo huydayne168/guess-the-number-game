@@ -161,3 +161,22 @@ main .container {
 .game-body__details .score {
     margin-bottom: 12px;
 }
+
+/* === Media Query === */
+@media only screen and (max-width: 500px) {
+    main {
+        padding-top: 0px;
+    }
+
+    #correct-answer {
+        margin-bottom: 50px;
+    }
+
+    #game-body {
+        flex-direction: column-reverse;
+    }
+
+    .game-body__details {
+        margin-bottom: 24px;
+    }
+}
